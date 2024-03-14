@@ -1,6 +1,14 @@
-# File: Clickup_Task_Hierachy_Recreator_doc.py
+# File: Clickup_Task_Hierachy_Status_Recreator_Doc.py
 ''' 
-this program does the following:
+The Python script Clickup_Task_Hierachy_Status_Recreator_Doc.py is a utility for managing tasks 
+in ClickUp, a project management tool. The script uses the ClickUp API to fetch and update tasks, 
+lists, and folders within a ClickUp space.
+
+The script's main functionality includes processing tasks and deciding if a task should be a subtask 
+based on certain conditions. It also finds parent tasks and updates task details on the server. 
+The script uses logging to track its operations and outputs logs to a file named output_clickup_recreator.log. 
+The script also handles environment variables for storing sensitive data like API keys, 
+which are loaded from a .env file.
 '''
 import requests
 import sys
