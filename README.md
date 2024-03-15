@@ -22,17 +22,19 @@ which are loaded from a .env file.
 1. Clone this repository to your local machine.
 2. Install the required Python packages with `pip install -r requirements.txt`
 3. (you should create this file with all the dependencies of your project).
-4. Create a `.env` file in the project root and add your ClickUp API key, team ID, and space URLs.
-5. Make sure to separate multiple space URLs with commas. Here's an example:
 
-```env
-CLICKUP_API_KEY=your_api_key
-CLICKUP_TEAM_ID=your_team_id
-CLICKUP_SPACE_URLS=url1,url2,url3
-Run the script with python Clickup_Task_Hierachy_Status_Recreator_Doc.py.
+4. Run the script with python Clickup_Task_Hierachy_Status_Recreator_Doc.py.
 Usage
 This script is intended to be run from the command line.
 It does not take any command line arguments. All configuration is done through the .env file.
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+5. Create a `.env` file in the project root and add your ClickUp API key, team ID, and space URLs.
+6. Make sure to separate multiple space URLs with commas. Here's an example:
+
+```env
+CLICKUP_API_KEY=your_api_key
+CLICKUP_TEAM_ID=your_team_id
+CLICKUP_SPACE_URLS=url1,url2,url3
